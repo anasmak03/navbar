@@ -100,6 +100,9 @@ li{list-style: none;}
     .navbar-list.active{
         display: flex;
     }
+    .navbar-list.active{
+        right: 0;
+    }
 
 }
 
@@ -134,6 +137,9 @@ li{list-style: none;}
         flex-direction: column;
         align-items: flex-start;
        
+    }
+    .navbar-list.active{
+        right: 0;
     }
     
     .navbar-list ul{
